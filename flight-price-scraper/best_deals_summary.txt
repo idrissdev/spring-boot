@@ -1,0 +1,88 @@
+================================================================================
+                    🎯 BEST FLIGHT PRICES - Q1 2026 
+================================================================================
+
+Based on sample data from the flight information you provided, here's what
+the scraper would find:
+
+📊 OVERVIEW
+-----------
+Total Flights Analyzed: 10
+Routes: Paris (PAR/CDG) → Annaba (AAE) & Constantine (CZL)
+Date Range: December 2025 - March 2026
+
+💰 PRICE RANGES (Economic Promo)
+---------------------------------
+Absolute Lowest:  €96.59  (PAR → AAE, Dec 7)
+Absolute Highest: €161.61 (PAR → AAE, Dec 9)
+Average Price:    €140.90
+
+🏆 TOP 5 BEST DEALS
+-------------------
+1. €96.59  - Paris → Annaba (Dec 7, 2025)
+   Flight AH1545 (17:10-19:20) Direct, 2h10m
+   ⭐ BEST DEAL! Save €38 vs average
+
+2. €128.60 - Paris → Constantine (Mar 20, 2026)
+   Flight AH1119 (17:00-19:15) Direct, 2h15m
+   ⭐ Great Q1 2026 price
+
+3. €134.60 - Paris → Annaba (Dec 9, 2025)
+   Flight AH1545 (17:10-19:20) Direct, 2h10m
+
+4. €134.60 - Paris → Constantine (Jan 7-8, 2026)
+   Flight AH1119 (17:00-19:15) Direct, 2h15m
+
+5. €145.60 - Paris → Constantine (Feb 14, 2026)
+   Flight AH1119 (17:00-19:15) Direct, 2h15m
+
+📅 BEST DAYS TO FLY
+-------------------
+Sunday, Dec 7:  €96.59  ⭐ Cheapest!
+Friday, Mar 20: €128.60 ⭐ Best Q1 2026
+
+💡 KEY INSIGHTS
+---------------
+• Direct flights available from €96-€135
+• Flights with 1 stop: €155-€162
+• Sunday departures tend to be cheaper
+• Mid-week in March offers best Q1 2026 prices
+• Paris → Annaba slightly cheaper than Paris → Constantine
+
+📈 FARE CLASS COMPARISON (Average Prices)
+-----------------------------------------
+Light:          €99.60   (hand baggage only)
+Economic Promo: €140.90  ⭐ Best value
+Economic Flex:  €348.50  (+147% vs Promo)
+Economic Smart: €423.00  (+200% vs Promo)
+Economic Plus:  €448.31  (+218% vs Promo)
+
+💵 SAVINGS OPPORTUNITIES
+------------------------
+• Book Economic Promo vs Economic Flex: Save ~€208 per ticket
+• Fly on Sundays instead of Saturdays: Save up to €62
+• Choose March dates for Q1 2026: Save ~€6-17 vs Jan/Feb
+
+================================================================================
+                        FILES GENERATED
+================================================================================
+
+✓ sample_results.csv      - Excel-compatible spreadsheet
+✓ sample_results.json     - Raw data for further analysis
+✓ best_deals_summary.txt  - This summary file
+
+================================================================================
+                     HOW TO USE WITH REAL DATA
+================================================================================
+
+1. Visit Air Algerie website: https://fly.airalgerie.dz
+2. Search for your desired routes and dates
+3. Copy the FULL URL from your browser (including session ID)
+4. Save URLs to a text file (one per line)
+5. Run: python3 batch_scraper.py your_urls.txt
+6. Analyze: python3 analyze_prices.py --report
+
+⚠️  IMPORTANT: URLs expire after ~30 minutes. Use fresh URLs for best results.
+   The scraper needs Selenium + Chrome to work with dynamic content.
+
+================================================================================
