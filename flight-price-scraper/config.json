@@ -1,0 +1,63 @@
+{
+  "search_parameters": {
+    "start_date": "2026-01-01",
+    "end_date": "2026-03-31",
+    "trip_duration_days": 3
+  },
+  "routes": [
+    {
+      "name": "Paris to Annaba",
+      "origin": "PAR",
+      "destination": "AAE",
+      "origin_full": "Paris, All airports",
+      "destination_full": "Annaba, Rabah Bitat"
+    },
+    {
+      "name": "Paris to Constantine",
+      "origin": "CDG",
+      "destination": "CZL",
+      "origin_full": "Paris, Charles De Gaulle",
+      "destination_full": "Constantine, Mohamed Boudiaf"
+    },
+    {
+      "name": "Paris to Algiers",
+      "origin": "PAR",
+      "destination": "ALG",
+      "origin_full": "Paris, All airports",
+      "destination_full": "Algiers, Houari Boumediene"
+    },
+    {
+      "name": "Paris to Oran",
+      "origin": "PAR",
+      "destination": "ORN",
+      "origin_full": "Paris, All airports",
+      "destination_full": "Oran, Ahmed Ben Bella"
+    },
+    {
+      "name": "Paris to Tlemcen",
+      "origin": "PAR",
+      "destination": "TLM",
+      "origin_full": "Paris, All airports",
+      "destination_full": "Tlemcen, Zenata"
+    },
+    {
+      "name": "Paris to Bejaia",
+      "origin": "PAR",
+      "destination": "BJA",
+      "origin_full": "Paris, All airports",
+      "destination_full": "Bejaia, Soummam"
+    }
+  ],
+  "scraper_settings": {
+    "headless": false,
+    "delay_between_searches": 2,
+    "max_retries": 3,
+    "timeout": 30,
+    "save_screenshots": true
+  },
+  "output": {
+    "csv_file": "airalgerie_prices_q1_2026.csv",
+    "json_file": "airalgerie_prices_q1_2026.json",
+    "log_file": "scraper.log"
+  }
+}
